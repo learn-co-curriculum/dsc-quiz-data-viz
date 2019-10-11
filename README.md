@@ -9,11 +9,13 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 
 
 
-?: Is anything wrong with the plot below? 
+?: Question 1   
 
-<p align="center">
-<img src="images/whats_wrong.png" width="500">
-</p>
+
+Is anything wrong with the plot below? 
+
+![whats_wrong](https://raw.githubusercontent.com/learn-co-curriculum/dsc-quiz-data-viz/master/images/whats_wrong.png) 
+
 
 ( ) Nope, everything looks fine! 
 (X) Yes, the data seems to be messy/wrong 
@@ -22,7 +24,10 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 
 
 
-?: What kind of plot(s) would you use to examine the distribution of a numeric variable? 
+?: Question 2   
+
+
+What kind of plot(s) would you use to examine the distribution of a numeric variable? 
 
 [ ] Scatter plot 
 [X] Boxplot 
@@ -32,7 +37,10 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 
 
 
-?: In what order should you run the following commands in order to generate and display a plot?   
+?: Question 3    
+
+
+In what order should you run the following commands in order to generate and display a plot?   
 
 1. `plt.legend()`  
 2. `x = np.linspace(1, 10, 20)`   
@@ -48,7 +56,10 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 
 
 
-?: Fill in the blanks such that the code block generates the following figure: 
+?: Question 4     
+
+
+Fill in the blanks such that the code block generates the following figure: 
 
 ```python
 import matplotlib.pyplot as plt
@@ -64,19 +75,20 @@ ax2.boxplot(data)
 plt.show()
 ```
 
-<p align="center">
-<img src="images/sub_plots.png" width="500">
-</p>
+![sub_plots](https://raw.githubusercontent.com/learn-co-curriculum/dsc-quiz-data-viz/master/images/sub_plots.png) 
 
 
-( ) 1: `ax.add_subplot(122)` | 2: `ax.add_subplot(121)`  
-(X) 1: `sample_figure.add_subplot(121)` | 2: `sample_figure.add_subplot(122)`    
-( ) 1: `add_subplot(121)` | 2: `add_subplot(122)`  
-( ) 1: `sample_figure.add(1, 2, 2)` | 2: `sample_figure.add(1, 2, 1)`  
+( ) 1 - `ax.add_subplot(122)` | 2 - `ax.add_subplot(121)`  
+(X) 1 - `sample_figure.add_subplot(121)` | 2 - `sample_figure.add_subplot(122)`    
+( ) 1 - `add_subplot(121)` | 2 - `add_subplot(122)`  
+( ) 1 - `sample_figure.add(1, 2, 2)` | 2 - `sample_figure.add(1, 2, 1)`  
 
 
 
-?: Fill in the blanks such that the code block generates the following figure: 
+?: Question 5    
+
+
+Fill in the blanks such that the code block generates the following figure: 
 
 
 ```python
@@ -88,15 +100,13 @@ ax = ___(x='cyl', y='mpg', data=df)
 ___(xlabel = "Cylinders", ylabel='Miles per gallon')
 ```
 
-<p align="center">
-<img src="images/seaborn_boxplot.png" width="500">
-</p>
+![seaborn_boxplot](https://raw.githubusercontent.com/learn-co-curriculum/dsc-quiz-data-viz/master/images/seaborn_boxplot.png) 
 
 
-( ) 1: `sns.boxplot` | 2: `sns.set`    
-( ) 1: `boxplot` | 2: `ax.set`    
-( ) 1: `boxplot` | 2: `ax.set_labels`    
-(X) 1: `sns.boxplot` | 2: `ax.set`
+( ) 1 - `sns.boxplot` | 2 - `sns.set`    
+( ) 1 - `boxplot` | 2 - `ax.set`    
+( ) 1 - `boxplot` | 2 - `ax.set_labels`    
+(X) 1 - `sns.boxplot` | 2 - `ax.set`
 
 
 
